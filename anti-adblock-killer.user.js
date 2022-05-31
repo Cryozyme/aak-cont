@@ -12,8 +12,8 @@
 // @contactURL https://reek.github.io/anti-adblock-killer/#contact
 // @supportURL https://github.com/reek/anti-adblock-killer/issues
 // @contributionURL https://github.com/reek/anti-adblock-killer#donate
-// @updateURL https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
-// @downloadURL https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
+// @updateURL https://github.com/Cryozyme/aak-cont/raw/main/anti-adblock-killer.user.js
+// @downloadURL https://github.com/Cryozyme/aak-cont/raw/main/anti-adblock-killer.user.js
 // @include http://*/*
 // @include https://*/*
 // @grant unsafeWindow
@@ -77,7 +77,7 @@
     name : 'Anti-Adblock Killer',
     version : '10.0',
     scriptid : 'gJWEp0vB',
-    homeURL : 'https://github.com/reek/anti-adblock-killer/',
+    homeURL : 'https://github.com/Cryozyme/aak-cont/',
     changelogURL : 'https://github.com/reek/anti-adblock-killer#changelog',
     donateURL : 'https://github.com/reek/anti-adblock-killer#donate',
     featuresURL : 'https://github.com/reek/anti-adblock-killer#features',
@@ -85,9 +85,9 @@
     contactURL : 'https://reek.github.io/anti-adblock-killer/#contact',
     settingsURL : 'https://reek.github.io/anti-adblock-killer/#settings',
     twitterURL : 'https://twitter.com/antiadbkiller',
-    downloadURL : 'https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js',
+    downloadURL : 'https://github.com/Cryozyme/aak-cont/raw/main/anti-adblock-killer.user.js',
     subscribeURL : 'https://reek.github.io/anti-adblock-killer/#filterlist',
-    listURL : "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt",
+    listURL : "https://github.com/Cryozyme/aak-cont/raw/main/anti-adblock-killer-filters.txt",
     nativeURL : 'https://github.com/reek/anti-adblock-killer/wiki/Native-Mode',
     iconURL : 'https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-icon.png',
     imgBait : 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAGklEQVR42mNg0GAYBaNgFIyCUTAKRsEoQAYATN8AKYNZ/x4AAAAASUVORK5CYII=',
