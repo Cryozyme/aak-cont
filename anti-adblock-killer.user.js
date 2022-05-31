@@ -3,19 +3,15 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author Cryozyme | https://github.com/Cryozyme/aak-cont
-// @version 10.0
-// @encoding utf-8
+// @version 2
 // @license https://creativecommons.org/licenses/by-sa/4.0/
 // @icon https://raw.github.com/reek/anti-adblock-killer/master/anti-adblock-killer-icon.png
 // @homepage https://github.com/reek/anti-adblock-killer/
-// @twitterURL https://twitter.com/antiadbkiller
-// @contactURL https://reek.github.io/anti-adblock-killer/#contact
 // @supportURL https://github.com/reek/anti-adblock-killer/issues
-// @contributionURL https://github.com/reek/anti-adblock-killer#donate
 // @updateURL https://github.com/Cryozyme/aak-cont/raw/main/anti-adblock-killer.user.js
 // @downloadURL https://github.com/Cryozyme/aak-cont/raw/main/anti-adblock-killer.user.js
-// @include http://*/*
-// @include https://*/*
+// @match http://*/*
+// @match https://*/*
 // @grant unsafeWindow
 // @grant GM_addStyle
 // @grant GM_getValue
@@ -35,7 +31,7 @@
 // @connect *
 // ==/UserScript==
 /*jshint evil:true newcap:false*/
-/*global unsafeWindow, GM_addStyle, GM_getValue, GM_setValue, GM_xmlhttpRequest, GM_registerMenuCommand, GM_deleteValue, GM_listValues, GM_getResourceText, GM_getResourceURL, GM_log, GM_openInTab, GM_setClipboard, GM_info, GM_getMetadata, $, document, console, location, setInterval, setTimeout, clearInterval*/
+/*global GM_getMetadata, $*/
 /*=====================================================
   Thanks
 ======================================================
