@@ -2,16 +2,15 @@
 // @name AAK-Cont Userscript For uBlock Origin
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author AAK-Cont contributors
-// @version 1.999
-// @encoding utf-8
+// @version 2
 // @license GNU GPL v3
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
-// @homepage https://xuhaiyang1234.gitlab.io/AAK-Cont/
+// @homepage https://github.com/Cryozyme/aak-cont
 // @supportURL https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
-// @updateURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-script-ubo.user.js
-// @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-script-ubo.user.js
-// @include http://*/*
-// @include https://*/*
+// @updateURL https://github.com/Cryozyme/aak-cont/aak-cont-script-ubo.user.js
+// @downloadURL https://github.com/Cryozyme/aak-cont/aak-cont-script-ubo.user.js
+// @match http://*/*
+// @match https://*/*
 // @grant unsafeWindow
 // @grant GM_addStyle
 // @grant GM_getValue
@@ -52,7 +51,7 @@ var a = (function(win) {
          * @type Object
          */
         about: {
-            homeURL: "https://xuhaiyang1234.gitlab.io/AAK-Cont/"
+            homeURL: "https://github.com/Cryozyme/aak-cont"
         },
          
         /**
